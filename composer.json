@@ -6,6 +6,7 @@
             "email": "ishaobinliang@gmail.com"
         }
     ],
+    "license": "MIT",
     "require": {
         "google/cloud": "^0.28.0"
     },
