@@ -1,0 +1,17 @@
+{
+    "name": "ben/google-vision-client",
+    "authors": [
+        {
+            "name": "Ben",
+            "email": "ishaobinliang@gmail.com"
+        }
+    ],
+    "require": {
+        "google/cloud": "^0.28.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ben\\GoogleVisionClient\\": "src/"
+        }
+    }
+}
