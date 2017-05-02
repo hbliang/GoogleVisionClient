@@ -9,7 +9,7 @@
 namespace Ben\GoogleVisionClient\Exception;
 
 
-class BaseException extends \Exception
+class BasicException extends \Exception
 {
 
 }

@@ -9,16 +9,14 @@
 
 require __DIR__ . '/vendor/autoload.php';
 
-$client = new \Ben\GoogleVisionClient\Client([
-    'visionClientConfig' => [
-        'projectId' => 'image-analysis-166204',
-    ],
-    'filename' => '/Users/Ben/Downloads/123.jpg',
+$detector = new \Ben\GoogleVisionClient\Detector([
+    'projectId' => 'image-analysis-166204',
 ]);
 
 $filename = '/Users/Ben/Downloads/123.jpg';
 
-$labels = $client->detectLabel()->analyze();
+$labels = $detector->label->analyze($filename);
 
+var_dump($labels);
 
 
